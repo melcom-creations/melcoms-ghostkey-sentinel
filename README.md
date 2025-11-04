@@ -1,4 +1,4 @@
-# melcom's GhostKey Sentinel v1.0
+# melcom's GhostKey Sentinel v1.1
 
 A simple AutoHotkey v2 script to fix keyboard chattering (unwanted double key presses) on mechanical keyboards.
 
@@ -40,6 +40,10 @@ You can customize the script's sensitivity by editing the `GhostKeySentinel.ahk`
 2.  Delete the `GhostKeySentinel.ahk` file from the folder.
 
 To exit a currently running script, find the green "H" icon in your system tray, right-click it, and select "Exit".
+
+## Changelog
+
+For a detailed history of all changes, please see the [`CHANGELOG.md`](CHANGELOG.md) file included with this release.
 
 ## Credits & License
 
