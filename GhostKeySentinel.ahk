@@ -3,7 +3,7 @@
 
 ; ==============================================================================
 ;
-;                        melcom's GhostKey Sentinel v1.0
+;                        melcom's GhostKey Sentinel v1.1
 ;
 ;       A Universal AutoHotkey Script to eliminate Keyboard Chattering
 ;                 (unwanted double key presses).
@@ -23,7 +23,7 @@
 ; Set the time window in milliseconds to ignore rapid duplicate key presses.
 ; A good starting value is 30.
 ; If you still experience double presses, increase this value in steps of 5
-; (e.g., 30, 35, 40 (Standard). Do not set it too high, or it might interfere with
+; (e.g., 35, 40). Do not set it too high, or it might interfere with
 ; intentional fast typing.
 global DebounceTime := 40
 
@@ -73,7 +73,10 @@ KeyArray := [
     "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "ö", "ä", "ü",
 
     ; Common functional keys
-    "Space", "Enter", "Backspace", "Delete", "Tab"
+    "Space", "Enter", "Backspace", "Delete",
+
+    ; Punctuation
+    ".", ",", "-", "_", "+", "*", "#", "'",
 
     ; Example for other keys (uncomment to add):
     ; "LControl", "RControl", "LShift", "RShift", "Up", "Down", "Left", "Right"
