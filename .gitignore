@@ -1,0 +1,6 @@
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# AutoHotkey backup files created by editors
+*.bak
