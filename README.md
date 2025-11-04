@@ -1,4 +1,4 @@
-# melcom's GhostKey Sentinel
+# melcom's GhostKey Sentinel v1.1
 
 A simple AutoHotkey v2 script to fix keyboard chattering (unwanted double key presses) on mechanical keyboards.
 
@@ -49,6 +49,5 @@ For a detailed history of all changes, please see the [`CHANGELOG.md`](CHANGELOG
 
 -   **Script by:** melcom
 -   **License:** MIT License (see `LICENSE.txt` for details)
-
 
 Enjoy your chatter-free keyboard! ❤️
